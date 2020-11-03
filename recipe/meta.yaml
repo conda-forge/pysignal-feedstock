@@ -7,7 +7,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/dgovil/{{ name }}/archive/v{{ version }}.tar.gz
+  url: https://github.com/dgovil/{{ name }}/archive/{{ version }}.tar.gz
   sha256: 499c9ae52a0ab83173fa469ffc86a32cc97ff51bc840f184d83bde754746425a
 
 build:
